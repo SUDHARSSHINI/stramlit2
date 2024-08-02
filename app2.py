@@ -7,7 +7,7 @@ import numpy as np
 import streamlit as st
 
 # Load the dataset
-data = pd.read_csv('/content/Churn_Modelling.csv')
+data = pd.read_csv('Churn_Modelling.csv')
 
 # Define features and target
 X = data.drop(['RowNumber', 'CustomerId', 'Surname', 'Exited'], axis=1)
